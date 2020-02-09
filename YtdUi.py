@@ -7,7 +7,8 @@ from PyQt5.QtCore import Qt
 from pytube import YouTube
 import os
 import sys
-import values, extensions
+
+from utils import values, extensions
 
 
 # Allow scaling on different dpi monitors
