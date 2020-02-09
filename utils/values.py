@@ -2,7 +2,7 @@
 # YoutubeDownloader app values
 
 app_name = "YoutubeDownloader"
-app_icon = "res/yt_logo.png"
+app_icon = "Resources/yt_logo.png"
 
 left	= 600
 top		= 600

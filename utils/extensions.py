@@ -4,7 +4,7 @@ from PyQt5.QtCore import QStandardPaths
 
 def set_path() -> str:
 	return QStandardPaths.standardLocations(
-		QStandardPaths.StandardLocation.DesktopLocation)[0]
+		QStandardPaths.StandardLocation.DownloadLocation)[0]
 
 
 def humanbytes(B: int) -> str:
