@@ -20,7 +20,7 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt, pyqtSlot
 
 from Utils import values, extensions
-import YtdC
+import YtdController
 import os
 import sys
 
@@ -36,7 +36,7 @@ class YtdUi(QWidget):
 	def __init__(self):
 
 		super().__init__()
-		self.controller = YtdC.YtdController(self)
+		self.controller = YtdController.YtdController(self)
 		self.initUi()
 
 		# Set layout for the window
